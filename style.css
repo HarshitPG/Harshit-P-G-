@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    font-size: 120%;
+    }
+.wholebody{
+    background-color:#F9F7F7;
+}
+.top_container{
+    position: relative;
+    background-color:#DBE2EF;
+    padding-top: 1.5%;
+    height:65%;
+    margin-bottom:0 ;
+}
+.main_body{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    width: 70% ;
+}
+.intro{
+    font-family:'Montserrat',sans-serif;
+    color:#3F72AF;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    font-size: 125%;
+}
+p{
+    font-family:'Montserrat',sans-serif;
+    color:#3F72AF;
+}
+h1{
+    font-size: 300%;
+    font-family: 'Delicious Handrawn', cursive;
+    color: #112D4E;
+   /* margin-top:0 ;
+    margin-bottom: 0;*/
+    margin: 0 auto 0 auto;
+}
+.montian{
+    position: relative;
+    bottom:0;
+    width: 51%; 
+}
+.cloud_1{
+    position: relative;
+    margin-left: 40%;
+    width: 18%;
+}
+.cloud_2{
+    position: absolute;
+    left: 17%;
+    /*margin-left: 30%;
+    margin-bottom: 42%;*/
+    width: 15%;
+}
+h2{
+    font-size: 210%;
+    font-family: 'Alkatra', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:2.5%;
+    padding-bottom: 1.5%;
+}
+.pcont{
+    width:100%;
+    height:29%px;
+}
+.text1{
+    text-align:center;
+    margin: 0 auto 0 auto;
+    width:70%;
+}
+.pprofile{
+   text-align: left;
+   width: 70%;
+   margin: 0 auto 0 auto;
+
+}
+.pprofile2{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 35px;
+}
+p{
+    margin: 0 auto 0 auto; 
+}
+.profile{
+    background-color: #F9F7F7;
+    text-align:center;
+}
+hr{
+    margin:2.5% auto 1.5% auto;
+    border-style:none;
+    border-color:#DBE2EF;
+    border-top-style:dotted;
+    width:3%;
+    border-width: 5px;
+    height: 3px;
+}
+.profilepic{
+    width:25%;
+    padding-top: 2.5%;
+}
+.ppcont{
+    padding-top: 2.5%;
+    line-height: 150%;
+    font-size: 90%;
+}
+.skillrow1{
+    padding-bottom: 2.5% ;
+    padding-top: 2.5%;
+}
+.imgrow1{
+    padding-top: 2.5%;
+    padding-right: 7.8%;
+}
+.imgrow2{
+    padding-top: 2.5%;
+    padding-right: 7.8%;
+}
+h3{
+    font-size: 135%;
+    color: #3F72AF;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:1.5%;
+    padding-bottom: 0%;
+}
+.botton{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.btn {
+    background: #3F72AF;
+    background-image: -webkit-linear-gradient(top, #3F72AF, #DBE2EF);
+    background-image: -moz-linear-gradient(top, #3F72AF, #DBE2EF);
+    background-image: -ms-linear-gradient(top, #3F72AF, #DBE2EF);
+    background-image: -o-linear-gradient(top, #3F72AF, #DBE2EF);
+    background-image: linear-gradient(to bottom, #3F72AF, #DBE2EF);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat',sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+.bottom-container{
+    background-color:#DBE2EF;
+    line-height: 195%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 125%;
+}
+a{
+    text-decoration: none;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    color: #3F72AF;
+    padding: .7%;
+}
+ul{
+    background-color: #DBE2EF;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: .75% 0 .75% 0;
+}
+li{
+    display: inline;
+}
+
+@media (min-width:1100px){
+    .profilepic{
+        float: left;
+        width:12.5%;
+        padding-top: 2.5%;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
+@media (max-width:1100px){
+    .pprofile{
+        width: 100%;
+        text-align: center;
+        padding: 2.5% 0 0 ;
+        line-height: 150%;
+        font-size: 90%; 
+        height: auto;  
+     }
+     .pprofile2{
+        padding-bottom: 2%;
+        width: 100%;
+        text-align: center;
+        line-height: 150%;
+        font-size: 90%;
+     }
+     .ppcont{
+        padding-top: 2.5%;
+        line-height: 150%;
+        font-size: 90%;
+    }
+}
