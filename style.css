@@ -185,16 +185,16 @@ ul{
 li{
     display: inline;
 }
-.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 @media (min-width:1100px){
     .profilepic{
         float: left;
         width:12.5%;
         padding-top: 2.5%;
+    }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 }
 @media (max-width:1100px){
